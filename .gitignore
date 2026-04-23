@@ -1,0 +1,46 @@
+# ── Python backend ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ── Flutter / Dart ────────────────────────────────────────────────────────
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+lulc_app/build/
+lulc_app/coverage/
+*.iml
+*.ipr
+*.iws
+.idea/
+.DS_Store
+*.log
+*.swp
+
+# ── Android build artifacts ───────────────────────────────────────────────
+lulc_app/android/app/debug/
+lulc_app/android/app/profile/
+lulc_app/android/app/release/
+lulc_app/android/.gradle/
+lulc_app/android/app/.cxx/
+lulc_app/android/local.properties
+
+# ── Large model files (too big for GitHub without LFS) ───────────────────
+lulc_app/assets/models/output_20260411_223819/best_model.h5
+lulc_app/assets/models/output_20260411_223819/final_model.h5
+lulc_app/assets/models/output_20260411_223819/confusion_matrix.npy
+lulc_app/assets/models/*.zip
+lulc_app/assets/models/model.tflite
