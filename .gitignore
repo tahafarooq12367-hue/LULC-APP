@@ -38,9 +38,5 @@ lulc_app/android/.gradle/
 lulc_app/android/app/.cxx/
 lulc_app/android/local.properties
 
-# ── Large model files (too big for GitHub without LFS) ───────────────────
-lulc_app/assets/models/output_20260411_223819/best_model.h5
-lulc_app/assets/models/output_20260411_223819/final_model.h5
-lulc_app/assets/models/output_20260411_223819/confusion_matrix.npy
-lulc_app/assets/models/*.zip
-lulc_app/assets/models/model.tflite
+# ── Large model files — tracked via Git LFS ──────────────────────────────
+# (use: git lfs track "*.h5" "*.tflite" "*.npy" "*.zip")
